@@ -1,0 +1,124 @@
+project_id,state,city,project_name,hud_project_number,program,first_edition_listed,last_edition_listed,status_june_1966,basis_june_1966,basis_history,sec112_credit_june_1966,includes_sec107_june_1966,renewing_inequality_id,renewing_inequality_boundary
+S112-001,Alabama,Florence,Florence State College,R-50,R,1964-06-30,1966-06-30,E,U,U (Jun 1964),256,no,1735,no
+S112-002,Alabama,Jasper,Downtown,R-49,R,1964-12-31,1966-06-30,E,R,R (Dec 1964),130,no,1757,yes
+S112-003,Alabama,Tuscaloosa,Druid City Hospital,R-45,R,1963-12-31,1966-06-30,E,R,R (Dec 1963),148,no,1807,no
+S112-004,Arkansas,Harrison,Crooked Creek,R-21,C,1962-06-30,1966-06-30,E,D,D (Jun 1962),72,no,3221,no
+S112-005,Arkansas,Little Rock,High Street,R-6,R,1960-12-31,1966-06-30,E,R,R (Dec 1960),249,no,3238,yes
+S112-006,California,Norwalk,Cerritos College,R-65,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),742,no,3849,no
+S112-007,California,Santa Clara,University,R-31,R,1960-12-31,1966-06-30,E,U,U (Dec 1960),442,no,3927,no
+S112-008,Colorado,Trinidad,Trinidad Jr. College,R-18,R,1966-06-30,1966-06-30,E,U,U (Jun 1966),245,no,3328,no
+S112-009,Connecticut,New Haven,Dixwell,R-20,R,1960-12-31,1966-06-30,E,R,U (Dec 1960) → R (Jun 1962),4307,yes,75,yes
+S112-010,Connecticut,New Haven,Dwight,R-71,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),2221,no,76,yes
+S112-011,Connecticut,New Haven,Oak Street,U  8 - 1,U,1955-06-30,1966-06-30,E,R,R (Jun 1955),1220,no,83,yes
+S112-012,Connecticut,Waterbury,B2 Extension,R-53,R,1962-12-31,1966-06-30,E,OB,OB (Dec 1962),,,126,no
+S112-013,Florida,Tampa,Riverfront,R-2,R,1962-12-31,1966-06-30,E,R,R (Dec 1962),90,no,1845,yes
+S112-014,Georgia,Athens,University,R-50,R,1962-12-31,1966-06-30,E,U,U (Dec 1962),931,no,1860,no
+S112-015,Georgia,Atlanta,Georgia State,R-59,R,1962-06-30,1966-06-30,E,U,U (Jun 1962),1170,no,1868,no
+S112-016,Georgia,Atlanta,Georgia Tech,R-85,R,1965-06-30,1966-06-30,E,U,U (Jun 1965),1573,no,1869,yes
+S112-017,Georgia,Augusta,Medical College of Georgia,R-45,R,1962-06-30,1966-06-30,C,U,U (Jun 1962),324,no,1881,yes
+S112-018,Georgia,Augusta,University Hospital,R-74,R,1965-06-30,1966-06-30,E,U,U (Jun 1965),170,no,1884,yes
+S112-019,Georgia,Decatur,Beacon Hill No 1,R-49,R,1964-06-30,1966-06-30,E,U,U (Jun 1964),298,yes,1912,no
+S112-020,Georgia,Gainsville,Southeast No 1,R-83,R,1964-06-30,1966-06-30,E,R,R (Jun 1964),402,yes,1931,no
+S112-021,Illinois,Carbondale,Lincoln Neighborhood 1,R-72,R,1965-12-31,1965-12-31,,,U (Dec 1965),,,2448,no
+S112-022,Illinois,Chicago,Hyde Park-Kenwood,R-1,R,1956-12-31,1966-06-30,E,U,R (Dec 1956) → U (Jun 1966),,,2466,yes
+S112-023,Illinois,Chicago,Illinois Institute of Technology,R-7,R,1957-06-30,1966-06-30,E,U,R (Jun 1957) → U (Jun 1966),1344,no,2467,yes
+S112-024,Illinois,Chicago,Lincoln Park No. 1,R-50,R,1965-12-31,1966-06-30,E,U,U (Dec 1965),,,2472,yes
+S112-025,Illinois,Galesburg,Central Square,R-55,R,1964-06-30,1966-06-30,E,U,U (Jun 1964),169,no,2527,no
+S112-026,Illinois,Peoria,Peoria Medical Center,R-61,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),456,no,2540,no
+S112-027,Illinois,Springfield,St. John's Hospital,R-71,R,1966-06-30,1966-06-30,E,U,U (Jun 1966),133,no,2556,no
+S112-028,Indiana,Bloomington,Dyer School I,R-30,R,1962-06-30,1966-06-30,E,U,R (Jun 1962) → U (Dec 1965),,,2565,no
+S112-029,Indiana,Evansville,Welborn Medical Center,R-49,R,1964-06-30,1966-06-30,E,U,U (Jun 1964),121,no,2582,yes
+S112-030,Indiana,Jeffersonville,Riverside Central,R-43,R,1965-12-31,1966-06-30,E,U,U (Dec 1965),,,2613,no
+S112-031,Indiana,Michigan City,Community Center No 1,R-46,R,1966-06-30,1966-06-30,E,OB,OB (Jun 1966),719,no,2620,no
+S112-032,Indiana,Mishawaka,Saint Joseph Hospital,R-42,R,1964-06-30,1966-06-30,C,U,U (Jun 1964),125,no,2630,no
+S112-033,Indiana,Vincennes,University UR Area,R-33,R,1963-12-31,1963-12-31,,,U (Dec 1963),,,2648,no
+S112-034,Iowa,Cedar Rapids,Cedar Lake,R-9,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),521,no,2652,no
+S112-035,Iowa,Des Moines,Oak Ridge 1,R-5,R,1964-06-30,1966-06-30,E,U,U (Jun 1964),75,no,2663,no
+S112-036,Iowa,Des Moines,River Hills 1,R-1,R,1960-06-30,1966-06-30,E,R,R (Jun 1960),29,no,2664,no
+S112-037,Kansas,Kansas City,University Rosedale,R-20,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),1193,no,3357,yes
+S112-038,Kentucky,Bowling Green,Jonesville,R-31,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),171,no,2000,no
+S112-039,Kentucky,Danville,Seventh Street,R-25,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),172,no,2012,no
+S112-040,Kentucky,Louisville,East Downtown,R-11,R,1962-06-30,1966-06-30,E,OB,OB (Jun 1962),1576,yes,2041,yes
+S112-041,Kentucky,Louisville,Old Louisville no 1,R-34,R,1966-06-30,1966-06-30,E,U,U (Jun 1966),,,2042,no
+S112-042,Maryland,Baltimore,Mount Vernon,R-15,R,1964-12-31,1966-06-30,E,U,R (Dec 1964) → U (Jun 1966),276,no,797,yes
+S112-043,Maryland,Baltimore,University of Maryland No. 1,R-8,R,1960-06-30,1966-06-30,C,U,OB (Jun 1960) → U (Dec 1960),1783,no,801,yes
+S112-044,Maryland,Baltimore,University of Maryland No. 2,R-9,R,1961-06-30,1966-06-30,C,U,U (Jun 1961),,,802,yes
+S112-045,Maryland,Baltimore,University of Maryland No. 3,R-25,R,1964-06-30,1966-06-30,E,U,U (Jun 1964),,,803,no
+S112-046,Massachusetts,Boston,South Cove,R-92,R,1966-06-30,1966-06-30,E,U,U (Jun 1966),2142,no,196,yes
+S112-047,Massachusetts,Boston,South End,R-56,R,1966-06-30,1966-06-30,E,U,U (Jun 1966),,,197,yes
+S112-048,Massachusetts,Cambridge,Kendall Square,R-107,R,1965-12-31,1966-06-30,E,U,U (Dec 1965),6104,no,218,yes
+S112-049,Massachusetts,Franklin,Horace Mann,R-76,R,1964-12-31,1964-12-31,,,OB (Dec 1964),,,4176,no
+S112-050,Michigan,Detroit,Medical Center 2,R-52,R,1962-12-31,1966-06-30,E,U,R (Dec 1962) → U (Jun 1966),47,no,2745,yes
+S112-051,Michigan,Detroit,University City,R-53,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),3672,no,2753,yes
+S112-052,Michigan,Flint,Central Park,R-99,R,1965-12-31,1966-06-30,E,U,U (Dec 1965),826,no,2771,yes
+S112-053,Michigan,Lansing,Project 1,R-87,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),,,2814,yes
+S112-054,Mississippi,Aberdeen,Chestnut-Forrest St.,R-7,R,1964-06-30,1966-06-30,E,,U (Jun 1964),40,no,2082,no
+S112-055,Missouri,Jefferson City,Campus View,R-18,R,1962-06-30,1966-06-30,E,R,R (Jun 1962),122,no,3429,no
+S112-056,Missouri,Kansas City,Hospital Hill,R-51,R,1965-12-31,1966-06-30,E,U,U (Dec 1965),800,no,3445,yes
+S112-057,Missouri,Kansas City,Woodland,R-36,E,1962-12-31,1966-06-30,E,R,R (Dec 1962),101,no,3455,yes
+S112-058,Missouri,Saint Louis,Mill Creek Valley,R-1,R,1957-06-30,1966-06-30,E,R,R (Jun 1957),2959,no,3490,yes
+S112-059,Missouri,Saint Louis,West End,R-54,R,1965-06-30,1966-06-30,E,U,U (Jun 1965),1994,yes,3493,yes
+S112-060,New Jersey,Camden,Camden Campus,R-66,R,1961-12-31,1966-06-30,C,U,U (Dec 1961),409,no,860,no
+S112-061,New York,Middletown,Area 1,R-6,R,1960-06-30,1966-06-30,E,R,R (Jun 1960),,,499,yes
+S112-062,New York,Mount Vernon,Midtown,R-66,R,1962-06-30,1966-06-30,E,OB,OB (Jun 1962),179,no,506,no
+S112-063,New York,New York,Bellevue South,R-18,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),,,523,yes
+S112-064,New York,New York,Brooklyn Bridge SW,R-67,R,1963-12-31,1966-06-30,E,OB,OB (Dec 1963) → U (Jun 1964) → OB (Jun 1966),,,527,yes
+S112-065,New York,New York,Harlem,U 4-5,U,1955-06-30,1966-06-30,E,R,R (Jun 1955),1704,no,543,yes
+S112-066,New York,New York,NYU–Bellevue,U 4-12,U,1955-06-30,1966-06-30,E,R,R (Jun 1955),838,no,554,yes
+S112-067,New York,Syracuse,Near Eastside,R-30,R,1960-06-30,1966-06-30,E,R,R (Jun 1960),2375,no,663,yes
+S112-068,North Carolina,Durham,North Carolina College,R-41,R,1964-06-30,1966-06-30,E,U,U (Jun 1964),380,no,2176,no
+S112-069,Ohio,Akron,University Site,R-30,R,1962-06-30,1966-06-30,C,U,R (Jun 1962) → U (Jun 1964),1284,no,2985,no
+S112-070,Ohio,Athens,South Green,R-63,R,1966-06-30,1966-06-30,E,U,U (Jun 1966),666,no,2992,no
+S112-071,Ohio,Cincinnati,Avondale 1-Corryville,R-6,R,1961-06-30,1966-06-30,E,R,R (Jun 1961),2580,no,3003,yes
+S112-072,Ohio,Cleveland,Erieview 1,R-36,R,1961-06-30,1966-06-30,E,OB,OB (Jun 1961),165,no,3021,yes
+S112-073,Ohio,Cleveland,University-Euclid 1,R-44,R,1962-06-30,1966-06-30,E,R,R (Jun 1962),6836,no,3028,yes
+S112-074,Ohio,Columbus,Bolivar Arms,R-73,R,1966-06-30,1966-06-30,E,R,R (Jun 1966),866,no,3033,yes
+S112-075,Ohio,Columbus,Children's Hospital,R-21,R,1962-06-30,1966-06-30,E,R,R (Jun 1962),25,no,3034,no
+S112-076,Ohio,Columbus,Dennison-Hunter-Hubbard,R-10,R,1963-12-31,1966-06-30,E,R,R (Dec 1963),83,no,3035,no
+S112-077,Ohio,Columbus,Market-Mohawk,R-14,R,1958-06-30,1966-06-30,E,U,R (Jun 1958) → U (Jun 1966),200,no,3038,yes
+S112-078,Ohio,Columbus,Ohio State Univ. North,R-46,R,1963-12-31,1966-06-30,C,U,U (Dec 1963),2827,no,3040,yes
+S112-079,Ohio,Portsmouth,University,R-70,R,1964-06-30,1966-06-30,E,U,U (Jun 1964),,,3119,no
+S112-080,Ohio,Springfield,North Hill 1,R-59,R,1962-12-31,1966-06-30,E,U,U (Dec 1962),942,no,3125,no
+S112-081,Ohio,Youngstown,University,R-68,R,1964-06-30,1966-06-30,E,U,U (Jun 1964),,,3153,no
+S112-082,Oklahoma,Miami,Downtown,R-21,R,1965-12-31,1966-06-30,E,OB,OB (Dec 1965),65,no,3562,no
+S112-083,Oklahoma,Miami,Artesian / College Expansion,R-6,R,1962-12-31,1966-06-30,C,U,U (Dec 1963),160,no,3563,no
+S112-084,Oklahoma,Oklahoma City,University Medical Center,R-20,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),1842,no,3573,yes
+S112-085,Oklahoma,Tulsa,Downtown Northwest,R-7,R,1965-12-31,1966-06-30,E,U,U (Dec 1965),260,no,3581,yes
+S112-086,Oregon,Corvallis,Oregon State University–Jefferson Street,R-12,R,1965-12-31,1966-06-30,E,U,U (Dec 1965),705,no,4011,yes
+S112-087,Oregon,Eugene,East Campus,R-7,R,1962-12-31,1966-06-30,E,U,U (Dec 1963),397,no,4013,no
+S112-088,Oregon,Salem,Willamette,R-9,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),341,no,4031,yes
+S112-089,Pennsylvania,Altoona,Altoona Hospital,R-247,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),16,no,1072,no
+S112-090,Pennsylvania,Bethlehem,Butler Street,R-124,R,1962-06-30,1966-06-30,C,U,U (Jun 1962),258,no,1083,no
+S112-091,Pennsylvania,Bethlehem,Packer Ave,R-249,R,1966-06-30,1966-06-30,E,U,U (Jun 1966),512,no,1089,no
+S112-092,Pennsylvania,California,California State College,R-133,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),172,no,1114,no
+S112-093,Pennsylvania,Chester,Pennsylvania Military College,R-159,R,1962-12-31,1966-06-30,E,R,R (Dec 1962),228,no,1138,yes
+S112-094,Pennsylvania,Clarion,Clarion State College,R-171,R,1965-12-31,1965-12-31,,,U (Dec 1965),,,1146,yes
+S112-095,Pennsylvania,Erie,Liberty Sassafras,R-94,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),,,1193,yes
+S112-096,Pennsylvania,Philadelphia,Drexel Avenue,R-72,R,1959-12-31,1966-06-30,C,U,OB (Dec 1959) → U (Dec 1960),,,1354,no
+S112-097,Pennsylvania,Philadelphia,Southwest Temple A,U 5-2,U,1955-06-30,1966-06-30,E,R,R (Jun 1955),2368,no,1387,no
+S112-098,Pennsylvania,Philadelphia,Temple University 5,R-237,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),2119,no,1392,no
+S112-099,Pennsylvania,Philadelphia,University City No 3,R-128,R,1966-06-30,1966-06-30,E,U,U (Jun 1966),,,1394,yes
+S112-100,Pennsylvania,Philadelphia,University City No 4,R-185,R,1966-06-30,1966-06-30,E,U,U (Jun 1966),2856,no,1395,yes
+S112-101,Pennsylvania,Philadelphia,Washington Sq West-Unit 1,R-240,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),,,1401,no
+S112-102,Pennsylvania,Pittsburgh,Allegheny Center,R-41,R,1961-06-30,1966-06-30,E,U,R (Jun 1961) → U (Jun 1966),,,1410,yes
+S112-103,Pennsylvania,Pittsburgh,Bluff Street,R-59,R,1962-12-31,1966-06-30,E,U,U (Dec 1962),520,no,1411,yes
+S112-104,Pennsylvania,Pottsville,Washington Street,R-192,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),69,no,1449,no
+S112-105,Pennsylvania,Scranton,University,R-108,R,1962-06-30,1966-06-30,E,U,U (Jun 1962),184,no,1483,no
+S112-106,Pennsylvania,Wilkes Barre,Kings College,R-206,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),245,no,1543,no
+S112-107,Pennsylvania,Wilkes Barre,Wright Street,R-149,R,1963-12-31,1966-06-30,C,U,U (Dec 1963),662,no,1547,no
+S112-108,Pennsylvania,Williamsport,Lycoming College 1,R-216,R,1964-06-30,1966-06-30,E,U,U (Jun 1964),191,no,1557,no
+S112-109,South Carolina,Columbia,University of South Carolina Extension No. 1,R-2,R,1961-12-31,1966-06-30,C,R,R (Dec 1961),918,no,2277,no
+S112-110,South Carolina,Columbia,University of South Carolina Extension No. 2,R-5,R,1965-12-31,1966-06-30,E,U,U (Dec 1965),,,2278,no
+S112-111,South Carolina,Spartanburg,Area 1,R-1,R,1959-06-30,1966-06-30,C,R,R (Jun 1959),133,no,2286,no
+S112-112,Tennessee,Knoxville,Yale Avenue,R-43,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),2114,no,2349,no
+S112-113,Tennessee,Memphis,Medical Center,R-18,R,1960-12-31,1966-06-30,E,R,R (Dec 1960),4975,no,2375,no
+S112-114,Tennessee,Nashville,Edgehill,R-69,R,1965-12-31,1966-06-30,E,U,U (Dec 1965),,,2394,yes
+S112-115,Texas,San Marcos,Chautauqua Hill,R-73,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),322,no,3702,no
+S112-116,Texas,Waco,Baylor 1A,R-37,R,1959-12-31,1966-06-30,C,R,R (Dec 1959),268,no,3721,no
+S112-117,Virginia,Norfolk,Old Dominion College,R-28,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),584,no,1615,no
+S112-118,Washington,Seattle,University Addition–North Lake,R-8,R,1963-12-31,1966-06-30,E,U,U (Dec 1963),3127,no,4053,yes
+S112-119,West Virginia,Huntington,Project G,R-9,R,1963-12-31,1966-06-30,C,U,U (Dec 1963),601,no,1668,no
+S112-120,West Virginia,Huntington,Project O,R-11,R,1964-06-30,1966-06-30,C,U,U (Jun 1964),13,no,1670,no
+S112-121,West Virginia,Wheeling,General Hospital,R-12,R,1964-12-31,1966-06-30,E,,R (Dec 1964),128,no,1677,no
+S112-122,Wisconsin,Milwaukee,Eastside A,R-1,R,1961-06-30,1966-06-30,E,OB,R (Jun 1961) → OB (Jun 1966),417,no,3186,no
+S112-123,Wisconsin,Milwaukee,Marquette,R-20,R,1964-12-31,1966-06-30,E,U,U (Dec 1964),3234,no,3191,yes

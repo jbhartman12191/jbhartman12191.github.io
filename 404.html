@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Page not found</title><meta name="description" content=""><link rel="canonical" href="https://jbhartman.com/404">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap"><style>
+/* Layout: a plate of real project boundaries at one scale, with quiet text below. */
+:root{--paper:#eef1f6;--ink:#1a2a5e;--soft:#55607f;--line:#c4cbdd;--pencil:#d3202c;--plate-ink:#1a2a5e;
+--disp:"Libre Franklin","Franklin Gothic Medium","Arial Narrow",Arial,sans-serif;--text:"Source Serif 4",Georgia,serif;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#121c40;--ink:#e3e8f7;--soft:#a6b0ce;--line:#34426f;--pencil:#ff7468;--plate-ink:#e3e8f7;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#121c40;--ink:#e3e8f7;--soft:#a6b0ce;--line:#34426f;--pencil:#ff7468;--plate-ink:#e3e8f7;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.125rem/1.6 var(--text);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:1320px;margin-inline:auto}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.18em}
+a:hover{color:var(--pencil)}
+:focus-visible{outline:2px solid var(--pencil);outline-offset:3px}
+.bar{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;padding-block:18px;font:600 .95rem/1.3 var(--disp)}
+.bar nav{display:flex;flex-wrap:wrap;gap:6px 20px}
+.bar a{text-decoration:none}.bar a:hover{text-decoration:underline}
+.bar a[aria-current]{text-decoration:underline}
+h1,h2,h3{font-family:var(--disp);margin:0;text-wrap:balance}
+.name{font-weight:800;font-size:clamp(3rem,10.6vw,10.25rem);line-height:.92;letter-spacing:-.045em;margin-block:clamp(16px,3vw,36px) clamp(14px,2vw,24px)}
+.role{font:400 clamp(1.3rem,2.4vw,2rem)/1.25 var(--disp);letter-spacing:-.012em;margin:0 0 clamp(26px,4vw,44px);max-width:34ch}
+.plate{display:block;width:100%;height:auto}
+.plate a{cursor:pointer}
+.plate rect{fill:transparent}
+.plate path{fill:none;stroke:var(--plate-ink);stroke-width:1.1;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.plate a:hover path,.plate a:focus-visible path,.plate a:focus path{fill:var(--pencil);stroke:var(--pencil)}
+.plate a:focus{outline:none}
+.narrow{display:none}
+.key{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:10px 32px;margin-top:14px;font:400 .92rem/1.4 var(--disp);color:var(--soft)}
+#live{min-height:2.8em;color:var(--ink);flex:1 1 300px;min-width:0}
+#live b{font-weight:600}
+.scale{flex:0 0 auto;text-align:right}
+.scale i{display:block;height:6px;border:1px solid var(--soft);border-top:0;margin-bottom:4px;margin-left:auto}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px clamp(32px,6vw,96px);margin-top:clamp(44px,6vw,80px)}
+.cols>*{min-width:0}
+h2{font-weight:800;font-size:clamp(1.55rem,2.5vw,2.1rem);line-height:1.1;letter-spacing:-.02em;margin-bottom:14px}
+.cols p,.cols li{max-width:62ch}
+p{margin:0 0 .85em}
+.dl{display:flex;flex-wrap:wrap;gap:10px 22px;margin:18px 0;font:600 1rem/1.3 var(--disp)}
+.open{display:inline-block;background:var(--ink);color:var(--paper);padding:.72em 1.05em;text-decoration:none;font:600 1.05rem/1.2 var(--disp)}
+.open:hover{background:var(--pencil);color:var(--paper)}
+.cite{font-size:1rem;color:var(--soft)}
+ul.work{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,430px),1fr));gap:16px clamp(32px,6vw,96px)}
+ul.work li{font-size:1.04rem}
+.draft{background:var(--ink);color:var(--paper);font:600 .92rem/1.35 var(--disp);padding:9px 12px;margin-top:12px}
+footer{margin-top:clamp(44px,6vw,76px);padding-top:14px;border-top:1px solid var(--line);font:400 .9rem/1.45 var(--disp);color:var(--soft);display:flex;flex-wrap:wrap;gap:6px 28px;justify-content:space-between}
+footer p{margin:0;max-width:72ch}
+/* CV */
+.cvhead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:14px 32px;margin-block:clamp(22px,4vw,44px) clamp(24px,4vw,40px)}
+.cvname{font-weight:800;font-size:clamp(2.6rem,7vw,5.6rem);line-height:.95;letter-spacing:-.04em;margin:0}
+.cv{max-width:1000px}
+.cv section{margin-bottom:40px}
+.cv h2{border-top:2px solid var(--ink);padding-top:10px}
+.cv h3{font-weight:600;font-size:1.05rem;margin:22px 0 8px}
+.entry{display:grid;grid-template-columns:7.2em minmax(0,1fr);gap:0 18px;margin-bottom:10px;font-size:1.03rem;line-height:1.5}
+.yr{font:600 .92rem/1.65 var(--disp);font-variant-numeric:tabular-nums;color:var(--soft)}
+.what{min-width:0;overflow-wrap:anywhere}.what p{margin:0 0 3px}.what p+p{color:var(--soft);font-size:.97rem}
+@media (max-width:640px){
+ .wide{display:none}.narrow{display:block}.cols{grid-template-columns:minmax(0,1fr)}
+ .scale{text-align:left;flex-basis:100%}.scale i{margin-left:0}
+ .entry{grid-template-columns:minmax(0,1fr)}
+}
+@media print{.bar,footer,.cvhead .open{display:none}body{background:#fff;color:#000}}
+</style></head><body><div class="wrap"><div class="bar"><a href="/">Julian B. Hartman</a><nav aria-label="Main"><a href="/cv/">CV</a><a href="/mapmaking/">Section 112 atlas</a><a href="https://scholar.google.com/citations?user=EqKOY14AAAAJ">Google Scholar</a><a href="mailto:jbhartman12191@gmail.com">Email</a></nav></div><main><h1 class="cvname" style="margin-top:40px">Page not found</h1><p style="margin-top:18px">This address is not on the site. Try the <a href="/">home page</a> or the <a href="/mapmaking/">Section 112 atlas</a>.</p></main></div></body></html>
