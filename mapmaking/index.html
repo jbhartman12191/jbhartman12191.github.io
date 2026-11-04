@@ -403,7 +403,7 @@ function histTable(p){
     return `<tr class="${x[0]!=='y'?'off':''}"><td>${edShort(e)}</td><td class="${x[4]==='i'?'inf':''}">${st}</td>${RESEARCH?`<td>${x[7]||''}</td>`:''}<td class="n">${x[2]!=null?x[2].toLocaleString('en-US')+(x[3]?'*':''):''}</td><td class="${x[4]==='i'?'inf':''}">${how}</td></tr>`;
   }).join('');
   return `<details><summary>Edition by edition</summary><table class="hist">${head}${body}</table>
-  <p class="meta">Source: <i>Urban Renewal Project Characteristics</i>, edition shown. * Total combined with Section 107 public housing credit.</p></details>`;
+  <p class="meta">Source: <i>Urban Renewal Project Characteristics</i>, edition shown.${p.s.some(x=>x[3])?' * Total combined with Section 107 public housing credit.':''}</p></details>`;
 }
 function famBlock(p){
   const du = (p.duSub!=null||p.duStd!=null) ? `${((p.duSub||0)+(p.duStd||0)).toLocaleString('en-US')} dwelling units (${(p.duSub||0).toLocaleString('en-US')} substandard)` : '—';
