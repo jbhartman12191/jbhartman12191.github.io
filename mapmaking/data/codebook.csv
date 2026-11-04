@@ -7,12 +7,12 @@ Projects,basis_history,"Basis for assistance in each edition where it changed, e
 Projects,renewing_inequality_id,"Project ID in the Renewing Inequality dataset, for linking only.",Integer
 Projects,renewing_inequality_boundary,Whether Renewing Inequality has a mapped boundary for this project.,yes / no
 Project by edition,edition_date,As-of date of the directory edition.,YYYY-MM-DD
-Project by edition,listed,Whether the project appears in that edition.,yes / no / unknown
+Project by edition,listed,Whether the project appears in that edition.,yes / no
 Project by edition,status,Current status (column 4).,P planning · E execution (loan and grant contract) · C completed
 Project by edition,basis,Basis for assistance to the project area (column 5).,"R blighted residential · OB other blighted · U college, university or hospital area (Sec. 112) · D disaster · PO predominantly open · O open land"
 Project by edition,sec112_credit,"Section 112 credit from column 25, in thousands of dollars, as printed.",Integer. Blank where no Section 112 credit is shown.
 Project by edition,includes_sec107,"Whether the column 25 amount is marked a/b/, i.e. Section 112 and Section 107 credits combined in one figure.",yes / no
 Project by edition,credit_note,Notes on the credit cell.,none shown · not reported (NR)
 Project by edition,source_document / source_pdf_page,"Scan the value was read from, and the page within that PDF.",See Sources
-Project by edition,how_established,How the value was established.,"read on scan: read directly from the page image · transcribed; confirmed by OCR: hand transcription that matches an OCR reading of the same row · inferred (…): derived, with the reason in parentheses · not checked: not located on the scan"
+Project by edition,how_established,How the value was established.,"read on scan: read directly from the page image · transcribed; confirmed by OCR: hand transcription that matches an OCR reading of the same row · inferred (…): derived, with the reason in parentheses"
 All,missing values,Blank cells.,A blank credit means none shown; a blank status with listed = no means the project was not in that edition.
