@@ -119,7 +119,7 @@ a{color:var(--accent)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
-<style>.sitehome{display:inline-block;font:600 13px/1.3 var(--sans,system-ui,sans-serif);margin:0 0 8px;color:inherit}</style></head>
+<style>.sitehome{display:inline-block;font:600 13px/1.3 var(--sans,system-ui,sans-serif);margin:0 0 8px;color:inherit}</style><style>#notice{max-width:min(460px,calc(100vw - 32px));padding:22px 24px 20px}#notice h2{margin:0 34px 10px 0}#notice p{margin:0;font-size:15px;line-height:1.45}#notice p+p{margin-top:10px}#noticeX{position:absolute;top:10px;right:10px;width:36px;height:36px;font:400 24px/1 system-ui,sans-serif;background:transparent;color:inherit;border:0;border-radius:6px;cursor:pointer}#noticeX:hover{background:rgba(127,127,127,.18)}#noticeX:focus-visible{outline:2px solid currentColor}</style></head>
 <body>
 <aside id="side">
   <header>
@@ -470,5 +470,5 @@ styleLayers(); render();
   if(layers[h] || (RESEARCH && h.startsWith('RI'))) select(h,true);
 })();
 </script>
-</body>
+<dialog id="notice" aria-labelledby="noticeT"><button id="noticeX" type="button" aria-label="Close this message">×</button><h2 id="noticeT">This data is incomplete</h2><p>The atlas covers Section 112 projects and credits only through June 1966, so its totals do not show the full program.</p><p>We are working on a more complete dataset.</p></dialog><script>(function(){var d=document.getElementById("notice");document.getElementById("noticeX").onclick=function(){d.close()};d.showModal()})();</script></body>
 </html>
