@@ -166,7 +166,7 @@ a{color:var(--accent)}
   <p>Each marker is a federal urban renewal project that counted land purchases by a college, university or hospital toward the city's local share of project costs under Section 112 of the Housing Act of 1949 (added in 1959). It shows each project's Section 112 credit, status and basis in every edition of <i>Urban Renewal Project Characteristics</i> from June 1955 to June 1966.</p>
   <h3>Sources</h3>
   <p>Credits, status and basis: U.S. Housing and Home Finance Agency and U.S. Department of Housing and Urban Development, <i>Urban Renewal Project Characteristics</i>, 1955–1966 (semi-annual). Editions marked <span class="inf">inferred</span> come before a project's first listing and were checked by OCR search, not read by eye. No June 1963 edition was found, and the June 1966 edition omits projects still in planning.</p>
-  <p>Project boundaries and displacement figures: <a href="https://dsl.richmond.edu/panorama/renewal/" target="_blank" rel="noopener">Renewing Inequality</a>, Digital Scholarship Lab, University of Richmond (CC BY-NC). Projects without a boundary there are shown at the city center.</p>
+  <p>Project boundaries and displacement figures: <a href="https://dsl.richmond.edu/panorama/renewal/" target="_blank" rel="noopener">Renewing Inequality</a>, Digital Scholarship Lab, University of Richmond (CC BY-NC). Projects without a boundary there are shown by a circle at an approximate location in or near the city.</p>
   <h3>Data</h3>
   <p id="dl">Download the dataset: <a href="data/Section%20112%20Credits%201955-1966%20v1.0.xlsx">Excel workbook</a> · <a href="data/project_by_edition.csv">project by edition (CSV)</a> · <a href="data/projects.csv">projects (CSV)</a>. Every value records its edition and how it was established, with the page when it was read from a report.</p>
   <h3>Credits</h3>
@@ -280,7 +280,7 @@ legend.onAdd = ()=>{
   const d=L.DomUtil.create('div','legend');
   d.innerHTML = Object.entries(BASIS).map(([k,b])=>`<div class="li"><span class="sw" style="background:${css(b.v)}"></span>${b.label}</div>`).join('')
    + `<div class="li" style="margin-top:4px"><span class="sw" style="background:${css('--muted')}"></span>Mapped boundary</div>`
-   + `<div class="li"><span class="sw ring" style="color:${css('--muted')}"></span>City center only (no boundary yet)</div>`
+   + `<div class="li"><span class="sw ring" style="color:${css('--muted')}"></span>Approximate location (no boundary yet)</div>`
    + `<div class="li" style="color:${css('--muted')}">Circle size: Section 112 credit</div>`
    + (RESEARCH?`<div id="rlegend"></div>`:'');
   return d;
@@ -445,7 +445,7 @@ function select(id,fly){
   ${chart(p)}
   ${histTable(p)}
   ${famBlock(p)}
-  ${p.loc==='city'?'<p class="note">No boundary in the Renewing Inequality data yet. The marker sits at the city center, not the project site.</p>':''}
+  ${p.loc==='city'?'<p class="note">No boundary in the Renewing Inequality data. The circle\'s location is approximate.</p>':''}
   ${RESEARCH?R.detailExtra(p):''}`;
   document.getElementById('close').onclick=closeDetail;
   if(RESEARCH) R.bindDetail(p);
