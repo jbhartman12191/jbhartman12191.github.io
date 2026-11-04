@@ -361,7 +361,7 @@ function render(){
   document.getElementById('count').textContent=`${v.length} projects${when} · ${nb} with mapped boundaries · ${fmtK(total)} in credits (excluding totals combined with Sec. 107)`;
   const note=document.getElementById('asofNote');
   note.hidden = asOf!=='1966-06' && asOf!=='latest';
-  note.textContent = asOf==='1966-06' ? 'The June 1966 edition leaves out projects still in planning, so four projects listed in 1965 are not shown.' :
+  note.textContent = asOf==='1966-06' ? 'The June 1966 edition leaves out projects still in planning, so four projects listed earlier in planning are not shown.' :
     'Credit is from the latest edition that reports one. Choose an edition to see the program at that date.';
 }
 map.on('zoomend',render);
