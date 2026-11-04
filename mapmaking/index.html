@@ -436,8 +436,9 @@ function select(id,fly){
     <dt>Section 112 credit</dt><dd>${fmtK(p.credit)}${p.creditW107?' (includes Sec. 107)':''}${p.creditEd?' · '+edShort(p.creditEd):''}</dd>
     ${asOf!=='latest'?`<dt>In ${edShort(asOf)}</dt><dd>${v.listed?(STATUS[v.status]||'Listed')+(v.credit!=null?' · '+fmtK(v.credit):'')+(v.inferred?' <span class="inf">(inferred)</span>':''):'Not listed'}</dd>`:''}
     <dt>First listed</dt><dd>${p.first?edLabel(p.first):'—'}</dd>
-    <dt>Status</dt><dd>${STATUS[p.status]||'—'} (latest)</dd>
-    <dt>Basis</dt><dd>${basisLine(p)}</dd>
+    <dt>Latest listed</dt><dd>${(i=>i<0?'—':edLabel(EDS[i].e))(p.s.map(x=>x[0]).lastIndexOf('y'))}</dd>
+    <dt>Status (latest)</dt><dd>${STATUS[p.status]||'—'}</dd>
+    <dt>Basis (latest)</dt><dd>${basisLine(p)}</dd>
     <dt>Federal grant reserved</dt><dd>${fmtD(p.grants)}${p.grantsAsof?' · '+p.grantsAsof:''}</dd>
     <dt>Project land</dt><dd>${p.acres?p.acres+' acres':'—'}${p.acresPublic?` · ${p.acresPublic} public reuse`:''}</dd>
   </dl>
